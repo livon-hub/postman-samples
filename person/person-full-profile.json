@@ -1,0 +1,129 @@
+{
+  "name": "Nome Completo",
+  "social_name": "Nome Social Completo",
+  "username": "nome_de_usuario",
+  "personal_email": "nome.usuario@email.com",
+  "company_email": "nome.usuario@empresa.com",
+  "cpf": "123.456.789-12",
+  "birth": "1999-10-31",
+  "marital_status": "Casado",
+  "gender": "Masculino",
+  "dismissal_date": "2025-10-31",
+  "admission_date": "2023-08-22",
+  "last_exam_date": "2024-08-20",
+  "workshift": "08:00-11:30/13:00-17:30 (200h)",
+  "eSocial_registration": "LIV0123456",
+  "race_name": "Branco",
+  "gender_identity": "Cisgênero",
+  "is_pcd": true,
+  "pcd_description": "Descrição do PCD",
+  "is_leader": true,
+  "classification_description": "Varejo",
+  "hr_hierarchy": [
+    {
+      "code": "MAN0123456",
+      "name": "Nome do Gerente",
+      "description": "Descrição da gestão"
+    },
+    {
+      "code": "PRE0123456",
+      "name": "Nome do Presidente",
+      "description": "Descrição da presidência"
+    },
+    {
+      "code": "LOW0123456",
+      "name": "Nome da baixa gestão",
+      "description": "Descrição da baixa gestão"
+    },
+    {
+      "code": "HIGH0123456",
+      "name": "Nome da alta gestão",
+      "description": "Descrição da alta gestão"
+    },
+    {
+      "code": "NIV0123456",
+      "name": "Nome da nível 6",
+      "description": "Descrição da nível 6"
+    },
+    {
+      "code": "NIV123456",
+      "name": "Nome da nível 7",
+      "description": "Descrição da nível 7"
+    },
+    {
+      "code": "NIV23456",
+      "name": "Nome da nível 8",
+      "description": "Descrição da nível 8"
+    }
+  ],
+  "address": {
+    "cep": "89221-010",
+    "city": "Joinville",
+    "state": "Santa Catarina",
+    "uf": "SC",
+    "district": "Saguaçu",
+    "street": "Dona Francisca",
+    "complement": "Casa de esquina",
+    "number": "123"
+  },
+  "telephone": [
+    {
+      "telephone_type": "celular",
+      "country_code": "55",
+      "number": "47910035215"
+    },
+    {
+      "telephone_type": "celular",
+      "country_code": "55",
+      "number": "47918835220"
+    }
+  ],
+  "company": {
+    "company_name": "Livon Saúde e Tecnologia Ltda",
+    "trade_name": "Livon",
+    "cnpj": "00.000.000/0000-00",
+    "address": {
+      "cep": "89221-010",
+      "city": "Joinville",
+      "state": "Santa Catarina",
+      "uf": "SC",
+      "district": "Saguaçu",
+      "street": "Dona Francisca",
+      "complement": "Sala 123",
+      "number": "123"
+    },
+    "telephone": [
+      {
+        "telephone_type": "celular",
+        "country_code": "55",
+        "number": "47910035215"
+      },
+      {
+        "telephone_type": "celular",
+        "country_code": "55",
+        "number": "47918835220"
+      }
+    ],
+    "cnae_code": "Q/86.60-7",
+    "cnae_description": "Atividades de apoio à gestão de saúde"
+  },
+  "workstation": {
+    "workstation_code": "workstation123",
+    "workstation_description": "Escritório"
+  },
+  "ghe": {
+    "ghe_code": "ghe123",
+    "ghe_name": "GHE 1",
+    "ghe_description": "Riscos relacionados a exposição ao ruído"
+  },
+  "sector": {
+    "sector_code": "sector123",
+    "sector_name": "Comercial",
+    "sector_description": "Sector 1"
+  },
+  "sector_function": {
+    "sector_function_code": "sectorfunction123",
+    "sector_function_name": "Analista Comercial Pleno I",
+    "sector_function_description": "Atividades de apoio à gestão de saúde"
+  }
+}
