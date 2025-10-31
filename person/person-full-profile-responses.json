@@ -1,0 +1,87 @@
+[
+  {
+    "status": 201,
+    "message": "Colaborador criado com sucesso.",
+    "data": {
+      "register": "1234567890",
+      "cpf": "123.456.789-12",
+      "name": "Nome Completo",
+      "email": "nome.usuario@email.com"
+    },
+    "timestamp": "2025-10-22T14:20:32Z"
+  },
+  {
+    "status": 400,
+    "message": "Erro de validação na requisição.",
+    "data": {
+      "register": "1234567890",
+      "cpf": "123.456.789-12",
+      "name": "Nome Completo",
+      "email": "nome.usuario@email.com"
+    },
+    "errors": [
+      {
+        "campo": "cpf",
+        "mensagem": "O campo CPF é obrigatório."
+      },
+      {
+        "campo": "email",
+        "mensagem": "E-mail com formato inválido."
+      }
+    ],
+    "timestamp": "2025-10-22T14:10:45Z"
+  },
+  {
+    "status": 401,
+    "message": "Acesso não autorizado. Token de autenticação inválido ou ausente.",
+    "timestamp": "2025-10-22T14:11:10Z"
+  },
+  {
+    "status": 403,
+    "message": "Você não tem permissão para realizar esta ação.",
+    "timestamp": "2025-10-22T14:11:55Z"
+  },
+  {
+    "status": 404,
+    "data": {
+      "register": "1234567890",
+      "cpf": "123.456.789-12",
+      "name": "Nome Completo",
+      "email": "nome.usuario@email.com"
+    },
+    "message": "Empresa não encontrada para o CNPJ informado.",
+    "timestamp": "2025-10-22T14:12:30Z"
+  },
+  {
+    "status": 409,
+    "message": "Conflito de dados. Um ou mais registros já estão cadastrados.",
+    "data": {
+      "register": "1234567890",
+      "cpf": "123.456.789-12",
+      "name": "Nome Completo",
+      "email": "nome.usuario@email.com"
+    },
+    "errors": [
+      {
+        "cpf": "123.456.789-12",
+        "motivo": "CPF já cadastrado."
+      },
+      {
+        "email": "nome.usuario@email.com",
+        "motivo": "E-mail já cadastrado."
+      }
+    ],
+    "timestamp": "2025-10-22T14:13:10Z"
+  },
+  {
+    "status": 500,
+    "data": {
+      "register": "1234567890",
+      "cpf": "123.456.789-12",
+      "name": "Nome Completo",
+      "email": "nome.usuario@email.com"
+    },
+    "message": "Ocorreu um erro interno no servidor. Tente novamente mais tarde.",
+    "timestamp": "2025-10-22T14:14:40Z"
+  }
+]
