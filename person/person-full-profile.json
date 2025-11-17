@@ -1,4 +1,5 @@
 {
+  "external_id": "LIV-003",
   "name": "Nome Completo",
   "social_name": "Nome Social Completo",
   "username": "nome_de_usuario",
@@ -23,37 +24,51 @@
     {
       "code": "MAN0123456",
       "name": "Nome do Gerente",
-      "description": "Descrição da gestão"
+      "description": "Descrição da gestão",
+      "level": 0,
+      "parent_level": null
     },
     {
       "code": "PRE0123456",
       "name": "Nome do Presidente",
-      "description": "Descrição da presidência"
+      "description": "Descrição da presidência",
+      "level": 1,
+      "parent_level": 0
     },
     {
       "code": "LOW0123456",
       "name": "Nome da baixa gestão",
-      "description": "Descrição da baixa gestão"
+      "description": "Descrição da baixa gestão",
+      "level": 2,
+      "parent_level": 1
     },
     {
       "code": "HIGH0123456",
       "name": "Nome da alta gestão",
-      "description": "Descrição da alta gestão"
+      "description": "Descrição da alta gestão",
+      "level": 3,
+      "parent_level": 2
     },
     {
       "code": "NIV0123456",
       "name": "Nome da nível 6",
-      "description": "Descrição da nível 6"
+      "description": "Descrição da nível 6",
+      "level": 4,
+      "parent_level": 3
     },
     {
       "code": "NIV123456",
       "name": "Nome da nível 7",
-      "description": "Descrição da nível 7"
+      "description": "Descrição da nível 7",
+      "level": 5,
+      "parent_level": 4
     },
     {
       "code": "NIV23456",
       "name": "Nome da nível 8",
-      "description": "Descrição da nível 8"
+      "description": "Descrição da nível 8",
+      "level": 6,
+      "parent_level": 5
     }
   ],
   "address": {
@@ -82,6 +97,8 @@
     "company_name": "Livon Saúde e Tecnologia Ltda",
     "trade_name": "Livon",
     "cnpj": "00.000.000/0000-00",
+    "cnae_code": "Q/86.60-7",
+    "cnae_description": "Atividades de apoio à gestão de saúde",
     "address": {
       "cep": "89221-010",
       "city": "Joinville",
@@ -103,9 +120,7 @@
         "country_code": "55",
         "number": "47918835220"
       }
-    ],
-    "cnae_code": "Q/86.60-7",
-    "cnae_description": "Atividades de apoio à gestão de saúde"
+    ]
   },
   "workstation": {
     "workstation_code": "workstation123",
