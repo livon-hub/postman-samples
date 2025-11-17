@@ -124,7 +124,7 @@
   },
   "workstation": {
     "workstation_code": "workstation123",
-    "workstation_description": "Escritório"
+    "workstation_name": "Escritório"
   },
   "ghe": {
     "ghe_code": "ghe123",
