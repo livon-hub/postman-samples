@@ -2,73 +2,88 @@
   "external_id": "LIV-003",
   "name": "Nome Completo",
   "social_name": "Nome Social Completo",
-  "username": "nome_de_usuario",
+  "username": "nome.usuario",
   "personal_email": "nome.usuario@email.com",
   "company_email": "nome.usuario@empresa.com",
   "cpf": "123.456.789-12",
   "birth": "1999-10-31",
   "marital_status": "Casado",
   "gender": "Masculino",
-  "dismissal_date": "2025-10-31",
-  "admission_date": "2023-08-22",
-  "last_exam_date": "2024-08-20",
-  "workshift": "08:00-11:30/13:00-17:30 (200h)",
-  "eSocial_registration": "LIV0123456",
   "race_name": "Branco",
   "gender_identity": "Cisgênero",
   "is_pcd": true,
   "pcd_description": "Descrição do PCD",
   "is_leader": true,
-  "classification_description": "Varejo",
+  "in_vacation": false,
+  "dismissal_date": "2025-10-31",
+  "admission_date": "2023-08-22",
+  "last_exam_date": "2024-08-20",
+  "workshift": "08:00-11:30/13:00-17:30 (200h)",
+  "eSocial_registration": "LIV0123456",
+  "manager": {
+    "manager_registration": "MAN0123456",
+    "manager_name": "Nome do Gerente"
+  },
+  "classification": {
+    "classification_code": "001",
+    "classification_description": "Varejo"
+  },
   "hr_hierarchy": [
     {
       "code": "MAN0123456",
       "name": "Nome do Gerente",
       "description": "Descrição da gestão",
       "level": 0,
-      "parent_level": null
+      "parent_level": null,
+      "parent_code": null
     },
     {
       "code": "PRE0123456",
       "name": "Nome do Presidente",
       "description": "Descrição da presidência",
       "level": 1,
-      "parent_level": 0
+      "parent_level": 0,
+      "parent_code": "MAN0123456"
     },
     {
       "code": "LOW0123456",
       "name": "Nome da baixa gestão",
       "description": "Descrição da baixa gestão",
       "level": 2,
-      "parent_level": 1
+      "parent_level": 1,
+      "parent_code": "PRE0123456"
     },
     {
       "code": "HIGH0123456",
       "name": "Nome da alta gestão",
       "description": "Descrição da alta gestão",
       "level": 3,
-      "parent_level": 2
+      "parent_level": 2,
+      "parent_code": "LOW0123456"
     },
     {
       "code": "NIV0123456",
       "name": "Nome da nível 6",
       "description": "Descrição da nível 6",
       "level": 4,
-      "parent_level": 3
+      "parent_level": 3,
+      "parent_code": "HIGH0123456"
     },
     {
       "code": "NIV123456",
       "name": "Nome da nível 7",
       "description": "Descrição da nível 7",
       "level": 5,
-      "parent_level": 4
+      "parent_level": 4,
+      "parent_code": "NIV0123456"
     },
     {
       "code": "NIV23456",
       "name": "Nome da nível 8",
       "description": "Descrição da nível 8",
       "level": 6,
-      "parent_level": 5
+      "parent_level": 5,
+      "parent_code": "NIV123456"
     }
   ],
   "address": {
@@ -93,12 +108,16 @@
       "number": "47918835220"
     }
   ],
+  "companygroup": {
+    "companygroup_code": "LIV-GP-001",
+    "companygroup_name": "Livon Saúde e Tecnologia Ltda"
+  },
   "company": {
     "company_name": "Livon Saúde e Tecnologia Ltda",
     "trade_name": "Livon",
     "cnpj": "00.000.000/0000-00",
-    "cnae_code": "Q/86.60-7",
-    "cnae_description": "Atividades de apoio à gestão de saúde",
+    "cnae_code": "6201501",
+    "cnae_description": "Desenvolvimento de programas de computador sob encomenda",
     "address": {
       "cep": "89221-010",
       "city": "Joinville",
